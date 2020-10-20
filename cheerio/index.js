@@ -148,7 +148,7 @@ class ShareLinkClass {
                 // https://c.m.163.com/news/a/FFDMJ85L04369EPL.html?spss=wap_refluxdl_2018&referFrom=&spssid=e8873313dbff2d6243a9144c12d2eb4a&spsw=3&isFromH5Share=article  
                 //http://szb.shaoyangnews.net/syrb/html/2020-06/15/content_107128.htm
                 case "baijiahao.baidu.com":
-                  _body.C_PT = "百家号";
+                  _body.C_PT = "百家号1";
                   let myDate = new Date();
                   let tYear = myDate.getFullYear();
                   _body.title = tYear + ' ' + $('title').text();
